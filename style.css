@@ -1,0 +1,135 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  background-color: #1c1c1c;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.header__img {
+  object-fit: cover;
+  border-radius: 15px;
+  width: 292.5px;
+  height: 45px;
+}
+input[type="search"] {
+  border: none;
+  outline: 0;
+  background-color: transparent;
+  color: #769fc6;
+  width: 100%;
+}
+.header__form {
+  margin-right: 150px;
+}
+.header__form--serch {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 30px;
+  width: 442px;
+  height: 34px;
+}
+
+.fa-magnifying-glass {
+  padding: 5px;
+  color: #fff;
+}
+
+.header__notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: #ccc;
+}
+
+.header__notification i {
+  font-size: 1.6rem;
+  border-radius: 5px;
+  background-color: #2b2b2b !important;
+  border: 1px solid rgb(84 59 59 / 8%) !important;
+  padding: 10px 15px;
+  border: 0.8px solid rgba(84, 59, 59, 0.08);
+}
+
+.header__p {
+  text-align: center;
+  color: #ccc;
+  font-size: 1.4rem;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.header__p--link {
+  color: rgb(255, 165, 0);
+  text-decoration: none;
+}
+
+/* Nav */
+.nav {
+  background-color: #1f2021;
+}
+.nav__ul {
+  display: flex;
+  color: #d0d0d0;
+  font-size: 1.4rem;
+}
+
+.nav__ul--li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 13px;
+  background-color: #1f2021;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.nav__ul--li a {
+  color: #d0d0d0;
+}
+
+.fa-sort-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 7px;
+}
+
+.nav__ul--li:hover {
+  color: #fff;
+  background-color: #2b2b2b;
+}
+.navMain {
+  margin-top: 4px;
+  box-shadow: 1px 1px 5px #b59620;
+  text-shadow: 0.1px 0.1px 2px #c7aa20;
+}
+.navMain__p {
+  font-size: 1.4rem;
+  color: #b59620;
+  padding: 10px;
+}
+
+.navMain__p--span {
+  font-weight: 600;
+  text-shadow: 1px 0.8px 6px #c7aa20;
+}
