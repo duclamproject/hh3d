@@ -2,9 +2,12 @@
   .nav-bars-search--responesive {
     display: none;
   }
+  .days__ul--li-schedule {
+    display: none;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 767px) and (max-width: 991.98px) {
   body {
     font-size: 1.3rem;
   }
@@ -30,7 +33,77 @@
   .days__ul--li {
     padding: 10px 15px;
   }
-  .poster {
+  .item__img {
+    width: 160px;
+    height: 180px;
+  }
+  .days__ul--li-schedule {
     display: none;
+  }
+}
+
+@media (min-width: 539px) and (max-width: 766.98px) {
+  .container {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+  }
+  .header__form {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .nav.nav-bars-search--responesive {
+    display: block;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    gap: 20px;
+  }
+  .navMain__p {
+    background-color: transparent;
+    height: 24px;
+    overflow: hidden;
+  }
+  .header__p {
+    font-size: 1.3rem;
+  }
+  .header__notification i {
+    font-size: 1.7rem;
+    padding: 15px 30px;
+  }
+
+  .days__ul--li {
+    display: none;
+  }
+  .days__ul--li-schedule {
+    display: flex;
+    padding: 10px 75px;
+  }
+  .days__ul--li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3.5px;
+  }
+  .days__ul--li a span {
+    display: block;
+    width: max-content;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .days__ul--li a span ~ span {
+    font-size: 1.3rem;
+    font-weight: normal;
+  }
+  .footer-logo {
+    width: 100%;
+    padding: 0 15px;
+    justify-content: space-between;
   }
 }

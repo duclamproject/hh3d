@@ -62,6 +62,7 @@ input[type="search"] {
 .fa-bars {
   padding: 9px 10.8px;
   color: #cccccc;
+  cursor: pointer;
 }
 .fa-bars {
   font-size: 2.5rem;
@@ -144,6 +145,10 @@ input[type="search"] {
 .nav__ul--li:hover {
   color: #fff;
   background-color: #2b2b2b;
+}
+.nav__ul--li:hover,
+.nav__ul--li:hover a {
+  color: #ea8300;
 }
 .navMain {
   margin-top: 4px;
@@ -236,8 +241,8 @@ input[type="search"] {
   cursor: pointer;
 }
 .item__img {
-  width: 220px;
-  height: 260px;
+  width: 215px;
+  height: 235px;
   border-radius: 5px;
   object-fit: cover;
   transition: 0.25s;
@@ -298,6 +303,7 @@ input[type="search"] {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .page {
