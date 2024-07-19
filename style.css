@@ -45,7 +45,8 @@ input[type="search"] {
   width: 100%;
 }
 .header__form {
-  margin-right: 150px;
+  width: 30%;
+  /* margin-right: 150px; */
 }
 .header__form--serch {
   display: flex;
@@ -54,7 +55,7 @@ input[type="search"] {
   border: 1px solid gray;
   padding: 5px 10px;
   border-radius: 30px;
-  width: 442px;
+  /* width: 442px; */
   height: 34px;
 }
 
