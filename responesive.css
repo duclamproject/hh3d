@@ -5,6 +5,9 @@
   .days__ul--li-schedule {
     display: none;
   }
+  .days__ul--li-bgc {
+    display: block;
+  }
 }
 
 @media (min-width: 767px) and (max-width: 991.98px) {
@@ -21,6 +24,7 @@
   .header__form {
     display: none;
   }
+
   .nav {
     display: none;
   }
@@ -40,6 +44,9 @@
   .days__ul--li-schedule {
     display: none;
   }
+  .days__ul--li-bgc {
+    display: block;
+  }
 }
 
 @media (min-width: 539px) and (max-width: 766.98px) {
@@ -47,6 +54,7 @@
     width: calc(100% - 60px);
     margin: 0 auto;
   }
+
   .header__form {
     display: none;
   }
@@ -74,7 +82,6 @@
     font-size: 1.7rem;
     padding: 15px 30px;
   }
-
   .days__ul--li {
     display: none;
   }
@@ -133,7 +140,16 @@
   .navMain__p {
     background-color: transparent;
     height: 24px;
-    overflow: hidden;
+    white-space: nowrap;
+    animation: meomeo 18s linear infinite both;
+  }
+  @keyframes meomeo {
+    to {
+      transform: translateX(-1100px);
+    }
+    from {
+      transform: translateX(350px);
+    }
   }
   .header__p {
     font-size: 1.3rem;
@@ -177,7 +193,6 @@
     gap: 6px;
     padding-bottom: 50px;
   }
-
   .page .button {
     background-color: #333;
     border: none;
