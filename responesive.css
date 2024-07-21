@@ -192,7 +192,7 @@
 
 @media (max-width: 538.98px) {
   .container {
-    width: calc(100% - 60px);
+    width: calc(100% - 40px);
     margin: 0 auto;
   }
   .header__form {
