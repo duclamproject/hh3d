@@ -400,7 +400,9 @@ input[type="search"] {
 .fa-facebook {
   color: white;
 }
-
+.nav--home-res {
+  display: none;
+}
 .infor {
   padding: 30px 0 15px;
 }
